@@ -1,0 +1,15 @@
+---
+title: "test"
+author: "name"
+site: bookdown::bookdown_site
+output:
+  bookdown::gitbook: default
+---
+
+# ひらがな
+
+## ひらがな
+
+
+
+
