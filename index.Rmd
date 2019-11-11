@@ -2,13 +2,20 @@
 title: "test"
 author: "name"
 site: bookdown::bookdown_site
-output:
-  bookdown::gitbook: default
+output: 
+    bookdown::gitbook: default
+    bookdown::pdf_book:
+      latex_engine: xelatex
+      keep_tex: yes
+      pandoc_args: --top-level-division=chapter
+documentclass: bxjsbook
+classoption: xelatex,ja=standard
+geometry: no
 ---
 
-# ひらがな
+# ひらがな {#hira}
 
-## ひらがな
+## ひらがな {#hira_sub}
 
 
 

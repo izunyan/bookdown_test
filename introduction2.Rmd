@@ -1,6 +1,11 @@
-# 漢字
+---
+output:
+  pdf_document: default
+  html_document: default
+---
+# 漢字 {-#kanji}
 
-## 漢字
+## test
 
 
 
