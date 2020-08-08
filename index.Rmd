@@ -3,19 +3,23 @@ title: "test"
 author: "name"
 site: bookdown::bookdown_site
 output: 
-    bookdown::gitbook: default
     bookdown::pdf_book:
       latex_engine: xelatex
       keep_tex: yes
       pandoc_args: --top-level-division=chapter
+    bookdown::gitbook: default
 documentclass: bxjsbook
 classoption: xelatex,ja=standard
-geometry: no
+#geometry: no # rmarkdown 2.xだと不要ぽい
 ---
 
 # ひらがな {#hira}
 
 ## ひらがな {#hira_sub}
+
+KnitボタンじゃなくBuildタブのBuild Bookを使う！
+https://github.com/rstudio/bookdown-demo/issues/8
+
 
 
 
